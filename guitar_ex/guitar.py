@@ -20,11 +20,6 @@ class Guitar:
             _guitarspec.get_builder() == other.get_builder() and _guitarspec.get_model() == other.get_model() \
                 and _guitarspec.get_type() == other.get_type() and _guitarspec.get_wood() == other.get_wood()) else False
 
-
-
-    def __hash__(self) -> int:
-        return self.get_spec()
-
     def __repr__(self):
         return f'{self.__class__.__name__}({self.serialNum}, {self.price}, {self.spec})'
         
