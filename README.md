@@ -5,7 +5,7 @@ This repository serves to solve/represent the problems in Head First Object Orie
 
 #### Completed Examples/Solutions
 - Guitar (run test:   ``` python -m unittest test.py ``` inside ```guitar_ex```    )
-- Dog Door
+- Dog Door (run test: ``` python dog_door_simulator.py -v ``` inside dog_door ) [doctest test]
 - Instrument (Guitarv2)
 
 
