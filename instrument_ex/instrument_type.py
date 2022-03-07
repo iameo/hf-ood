@@ -5,3 +5,6 @@ class InstrumentType(Enum):
     BANJO = "Banjo"
     MANDOLIN = "Mandolin"
     BASS = "Bass"
+
+    def __str__(self):
+        return str(self.value)
