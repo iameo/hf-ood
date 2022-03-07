@@ -11,6 +11,9 @@ class Instrument:
     
     def set_price(self, price):
         self.price = price
+
+    def get_price(self):
+        return self.price
     
     def get_spec(self) -> InstrumentSpec:
         return self.spec
